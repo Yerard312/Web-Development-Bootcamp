@@ -1,0 +1,44 @@
+<html>
+<head>
+</head>
+<body>
+<script language="JavaScript">
+    var numbrer;
+
+    document.write('Dado un número, determinar si es positivo, negativo o cero.');
+    document.write('<br>');
+
+
+    numbrer=prompt('Ingrese un numero:','');
+
+    if (numbrer == 0) {
+        document.write('el número es cero.\n ')
+    } else if (numbrer > 0) {
+        document.write('El número es positivo,\n ')
+    } else {
+        document.write('El número es negativo,\n ')
+    }
+
+    document.write('<br>');
+    document.write('imprimir los numeros del 1 al 10.<br>');
+      
+    for(f=1;f<=10;f++)
+    {
+    document.write(f+" ");
+    document.write('<br>');
+    }
+
+    document.write('<br>Bucle<br>');
+    
+    var Aux = parseInt(0)
+    do {
+    var valor=prompt('Ingrese un valor entre 1 y 999 (con 0 se sale del bucle):','');
+    var valor=parseInt(valor);
+    Aux = Aux + valor
+    document.write('La suma es:  '+ Aux);
+    document.write('<br>');
+    } while(valor!=0);
+
+</script>
+</body>
+</html>
