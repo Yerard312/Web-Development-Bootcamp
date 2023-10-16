@@ -3,8 +3,8 @@
 
 console.log ("Hola, Mundo");
 
-console.log ("Crear variables de diferentes tipos y mostrar sus valores en la consola.");
-console.log ("");
+console.log ("Crear variables de diferentes tipos y mostrar sus valores en la consola. \n");
+
 var myName = "Yerard";
 console.log (myName);
 console.log (typeof myName);
@@ -26,9 +26,9 @@ console.log (MY_ID);
 console.log (typeof MY_ID);
 
 //Operaciones Artimeticas
-console.log ("");
-console.log ("Realizar operaciones aritméticas básicas:");
-console.log ("");
+
+console.log ("\nRealizar operaciones aritméticas básicas:\n");
+
 var Sum = 300 + 800
 console.log ("Suma :" + Sum);
 //console.log (typeof MY_ID);
@@ -42,11 +42,10 @@ console.log ("Division :" + Div);
 //console.log (typeof MY_ID);
 
 //Cadenade texto
-console.log ("");
-console.log ("Determinar si una cadena de texto es igual a otra ignorando mayúsculas/minúsculas:");
-console.log ("");
 
-var myName = "erard";
+console.log ("\n Determinar si una cadena de texto es igual a otra ignorando mayúsculas/minúsculas:\n");
+
+var myName = "Yerard";
 if (myName == "Yerard" || myName == "yerard")
     {
         console.log ("la cadena de caracteres es igual a : " + myName);
